@@ -6,6 +6,8 @@ public class Oppgave1 {
         int min_index = min(a);
 
         System.out.println("Indeksen til minste tallet i rekken a er : "+min_index);
+
+        System.out.println("vardien : "+(a[min_index]));
     }
 
     static int min(int[] a) {
